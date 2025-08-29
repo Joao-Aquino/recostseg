@@ -1,0 +1,24 @@
+{
+  "name": "recostseg-schemas",
+  "version": "1.0.0",
+  "description": "Schema markup management for RE Cost Seg website",
+  "main": "loader.js",
+  "scripts": {
+    "validate": "node validate.js",
+    "test": "npm run validate",
+    "format": "prettier --write 'schemas/*.json'"
+  },
+  "keywords": [
+    "schema",
+    "seo",
+    "structured-data",
+    "recostseg"
+  ],
+  "author": "RE Cost Seg",
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "prettier": "^3.0.0"
+  }
+}
