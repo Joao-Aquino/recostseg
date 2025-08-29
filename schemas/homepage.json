@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FinancialService",
+      "@id": "{{CURRENT_URL}}#organization",
+      "name": "RE Cost Seg",
+      "alternateName": "Recost Seg",
+      "url": "https://www.recostseg.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.recostseg.com/assets/logo.png",
+        "width": 600,
+        "height": 60
+      },
+      "description": "Expert cost segregation services helping real estate investors reduce taxes by 20-40% through accelerated depreciation. Virtual property tours, IRS-compliant studies, and free audit support.",
+      "telephone": "+1 (346) 214-6539",
+      "email": "info@recostseg.com",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "priceRange": "$950-$15,000",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00",
+        "timeZone": "America/New_York"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/recostseg",
+        "https://www.facebook.com/recostseg"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "324"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{CURRENT_URL}}#website",
+      "url": "https://www.recostseg.com",
+      "name": "RE Cost Seg",
+      "publisher": {
+        "@id": "{{CURRENT_URL}}#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{CURRENT_URL}}#webpage",
+      "url": "{{CURRENT_URL}}",
+      "name": "{{PAGE_TITLE}}",
+      "description": "{{META_DESCRIPTION}}",
+      "dateModified": "{{MODIFIED_DATE}}",
+      "isPartOf": {
+        "@id": "{{CURRENT_URL}}#website"
+      }
+    }
+  ]
+}
