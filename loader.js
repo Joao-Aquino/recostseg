@@ -12,7 +12,7 @@
   // Configuration
   const CONFIG = {
     version: '1.0.0',
-    githubRepo: 'YOUR_GITHUB_USERNAME/recostseg-schemas',
+    githubRepo: 'Joao-Aquino/recostseg-schemas',
     branch: 'main',
     cdnUrl: 'https://cdn.jsdelivr.net/gh/',
     cacheTime: 3600, // 1 hour cache
